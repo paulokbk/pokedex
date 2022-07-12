@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="icon" type="imagem/jpg" href="../../assets/pokedex-icon-21.jpg" />
     <link rel="stylesheet" href="../../styles/reset.css">
     <link rel="stylesheet" href="../../styles/theme.css">
     <link rel="stylesheet" href="../home/styles.css">
@@ -18,24 +19,26 @@
 
 <body>
     <header class="bg-white">
-        <div id="inside_header" class="max-width-content">
-            <div id="image_top"><img src="../../assets/poke.svg"></div>
+        <div class="top_header">
+            <div id="image_top" class="max-width-content"><img src="../../assets/poke.svg"></div>
+        </div>
+        <div class="botton_header">
             <nav>
-                <ul id="navegacao">
-                    <li>Home</li>
-                    <li>Pokédex</li>
-                    <li>Video Game</li>
-                    <li>Trading Card Game</li>
-                    <li>Pokémon TV</li>
-                    <li>Pokémin Events</li>
-                    <li>News</li>
-                </ul>
+                <div class="bar_nav">
+                    <div class="bar_nav_iten bar_nav_iten_1"><a href="#">Home</a></div>
+                    <div class="bar_nav_iten bar_nav_iten_2"><a href="#">Pokédex</a></div>
+                    <div class="bar_nav_iten bar_nav_iten_3"><a href="#">Video Game</a></div>
+                    <div class="bar_nav_iten bar_nav_iten_4"><a href="#">Trading Card Game</a></div>
+                    <div class="bar_nav_iten bar_nav_iten_5"><a href="#">Pokémon TV</a></div>
+                    <div class="bar_nav_iten bar_nav_iten_6"><a href="#">Pokémin Events</a></div>
+                    <div class="bar_nav_iten bar_nav_iten_7"><a href="#">News</a></div>
+                </div>
             </nav>
         </div>
     </header>
 
 
-    <main>
+    <main class=>
         <section id="title" class="max-width-content bg-white">Pokédex</section>
         <section id="inside_main_top">
             <div id="black_margin">
@@ -43,19 +46,94 @@
                     <div id="left_black" class="color-white">
                         <h2>Name or Number</h2>
                         <div id="source">
-                            <div id="source_zone"></div>
-                            <div id="source_button"><img id="img_button" src="../../assets/source_button.svg"></div>
+                            <input id="source_zone"></input>
+                            <a href="#"><div id="source_button"><img id="img_button" src="../../assets/source_button.svg"></div></a>
+
                         </div>
                     </div>
                     <div id="rigth_black" class="color-white">Search for a Pokémon by name or using its National Pokédex
                         number</div>
                 </div>
             </div>
-            <section id="pokemons" class="max-width-content">
+            <section id="pokemons_line_1" class="max-width-content bg-white pokemons_line">
                 <div id="pokemon1" class="cards">
-                    
+                    <div class="img_card">
+                        <img src="../../assets/bulbasaur.svg">
+                    </div>
+                    <div class="botton_card">
+                        <span class="number_card">#001</span>
+                        <div class="nome_card">Bulbassaur</div>
+                        <div class="power_card">
+                            <span class="power_grass">Grass</span>
+                            <span class="power_poison">Poison</span>
+                        </div>
+                    </div>
                 </div>
-
+                <div id="pokemon2" class="cards">
+                    <div class="img_card">
+                        <img src="../../assets/ivysaurt.svg">
+                    </div>
+                    <div class="botton_card">
+                        <span class="number_card">#002</span>
+                        <div class="nome_card">Ivysaur</div>
+                        <div class="power_card">
+                            <span class="power_grass">Grass</span>
+                            <span class="power_poison">Poison</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="pokemon3" class="cards">
+                    <div class="img_card">
+                        <img src="../../assets/venusaur.svg">
+                    </div>
+                    <div class="botton_card">
+                        <span class="number_card">#003</span>
+                        <div class="nome_card">Venusaur</div>
+                        <div class="power_card">
+                            <span class="power_grass">Grass</span>
+                            <span class="power_poison">Poison</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="pokemon_line_2" class="max-width-content bg-white pokemons_line">
+                <div id="pokemon4" class="cards">
+                    <div class="img_card">
+                        <img src="../../assets/charmander.svg">
+                    </div>
+                    <div class="botton_card">
+                        <span class="number_card">#004</span>
+                        <div class="nome_card">Charmander</div>
+                        <div class="power_card">
+                            <span class="power_fire">Fire</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="pokemon2" class="cards">
+                    <div class="img_card">
+                        <img src="../../assets/chermeleon.svg">
+                    </div>
+                    <div class="botton_card">
+                        <span class="number_card">#005</span>
+                        <div class="nome_card">Charneleon</div>
+                        <div class="power_card">
+                            <span class="power_fire">Fire</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="pokemon3" class="cards">
+                    <div class="img_card">
+                        <img src="../../assets/charizard.svg">
+                    </div>
+                    <div class="botton_card">
+                        <span class="number_card">#006</span>
+                        <div class="nome_card">Charizard</div>
+                        <div class="power_card">
+                            <span class="power_fire">Fire</span>
+                            <span class="power_flying">Flying</span>
+                        </div>
+                    </div>
+                </div>
             </section>
         </section>
     </main>
