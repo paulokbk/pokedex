@@ -83,7 +83,7 @@ header img {
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 580px) {
 
     header{
         height: 60px;
