@@ -5,11 +5,13 @@ a{
    color: #464646
 } 
 
+.menu_mobile{
+    display: none;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #F2F2F2;
-    
-
 }
 
 .max-width-content{
@@ -18,13 +20,16 @@ body{
 }
 
 
-
 .color-white{
     color: #fff;
 }
 
 .color-gray{
     color: #919191;
+}
+
+#image_top img{
+    height: 32px;
 }
 
 .bg-white{
@@ -46,7 +51,7 @@ body{
 
 .bar_nav_iten{
     width: 127px;
-    height: 80px;
+    height: 72px;
     font-size: 14px;
     font-weight: 500;
     display: flex;
@@ -84,8 +89,12 @@ body{
     border-bottom: solid 6px #1B53BA;
 }
 
+.cards{
+    margin: 10px;
+}
+
 .botton_card{
-    padding-left: 10px;
+    
     padding-top: 2px;
     display: flex;
     flex-direction: column;
@@ -146,10 +155,10 @@ body{
 }
 
 .pokemons_line{
-    padding-bottom: 14px;
     padding-top: 26px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .power_fire{
@@ -178,4 +187,8 @@ body{
     height: 18px;
     width: 92px;
     text-align: center;
+}
+
+.max-width-content-mobile{
+    max-width: 340px;
 }
